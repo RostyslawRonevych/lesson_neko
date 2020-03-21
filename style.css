@@ -1,0 +1,213 @@
+ * {
+    margin: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    padding: 15px 0;
+    background-color: coral;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-bottom: rgb(241, 65, 65) 5px solid;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    justify-content: center;
+}
+
+
+.content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fas {
+    margin-left: 10px;
+    color: white;
+}
+
+
+.logo {
+    color: white;
+    margin-left: 4px;
+}
+
+
+
+
+
+
+.navigation {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+
+
+.link {
+    color: white;
+    margin-right: 12px;
+}
+
+
+
+
+.main {
+    width: 100%;
+    background-image: url(./fon-site19.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.main-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.title {
+    display: flex;
+    color: rgb(250, 108, 57);
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.title-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.form {
+    
+    color: rgb(250, 108, 57);
+    
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(247, 215, 203);
+    border-radius: 8px;
+}
+
+
+
+.form-element {
+    margin-top: 6px;
+
+
+}
+
+
+
+
+.top {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.input {
+    background-color: rgb(247, 215, 203);
+    border: none;
+    border-bottom: black solid 2px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 100%;
+
+
+}
+
+
+
+.button {
+    background-color: rgb(250, 164, 133); 
+    border: none;
+    width: 30%;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+
+.bottom-text {
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 992px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+
+    .form {
+        max-width: 500px;
+        margin: auto;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+
+    .navigation {
+        flex-direction: column;
+    }
+
+
+
+    .logo {
+        margin: 0px;
+    }
+
+
+    .fas {
+        margin: 0px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .main {
+        text-align: center;
+    }
+
+}

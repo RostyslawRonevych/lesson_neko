@@ -109,6 +109,8 @@
     padding-left: 20px;
     background-color: rgb(247, 215, 203);
     border-radius: 8px;
+    max-width: 300px;
+    
 }
 
 
@@ -152,6 +154,7 @@
     font-weight: bold;
     color: white;
     border-radius: 3px;
+    margin-top: 18px;
 }
 
 
@@ -159,6 +162,7 @@
 
 .bottom-text {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
